@@ -1,8 +1,9 @@
 import ListGroup from "./components/ListGroup";
+import Button from "./components/Button";
 import "./App.css";
 
 function App() {
-  let items = ["New York", "Austin", "Tokyo", "London"];
+  const items = ["New York", "Austin", "Tokyo", "London"];
 
   const handleSelectItem = (item: string) => {
     console.log(item);
@@ -18,6 +19,13 @@ function App() {
             onSelectItem={handleSelectItem}
           />
         </div>
+        <Button
+          children={"hello"}
+          color={"purple-200"}
+          onClick={() => console.log("Clicked")}
+        ></Button>
+        {/* <div className='bg-white p-4'></div> */}
+        {/* <div className='bg-purple-200 p-4'></div> */}
       </div>
     </>
   );
