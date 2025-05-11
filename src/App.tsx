@@ -1,22 +1,24 @@
-import ListGroup from "./components/ListGroup";
+// import ListGroup from "./components/ListGroup";
 import "./App.css";
 
 function App() {
-  let items = ["New York", "Austin", "Tokyo", "London"];
+  // let items = ["New York", "Austin", "Tokyo", "London"];
 
-  const handleSelectItem = (item: string) => {
-    console.log(item);
-  };
+  // const handleSelectItem = (item: string) => {
+  //   console.log(item);
+  // };
 
   return (
     <>
       <div className='h-screen w-lvw bg-gray-300'>
-        <div className='container mx-auto bg-red-300 p-4'>
-          <ListGroup
-            items={items}
-            heading='Cities'
-            onSelectItem={handleSelectItem}
-          />
+        <div className='container mx-auto bg-red-500 p-4'>
+          <h1>GameLib</h1>
+        </div>
+        <div className='container mx-auto p-4'>
+          <h2>work in progress...</h2>
+          <a href='https://dev.gamelib-d40.pages.dev'>
+            Take a peek at my dev branch
+          </a>
         </div>
       </div>
     </>
