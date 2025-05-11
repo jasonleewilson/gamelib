@@ -1,18 +1,15 @@
-import reactLogo from "./assets/react.svg";
+import ListGroup from "./components/ListGroup";
 import "./App.css";
 
-import Message from "./Message";
-
 function App() {
+  let items = ["New York", "Austin", "Tokyo", "London"];
   return (
     <>
-      <div>
-        <a href='https://gamelib.pages.dev' rel='noopener' target='_blank'>
-          <img src={reactLogo} className='logo react' alt='React logo' />
-        </a>
+      <div className='h-screen w-lvw bg-gray-300'>
+        <div className='container mx-auto bg-red-300 p-4'>
+          <ListGroup items={items} heading='Cities' />
+        </div>
       </div>
-      <h1>gamelib</h1>
-      <Message />
     </>
   );
 }
