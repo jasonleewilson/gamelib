@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className='h-screen w-lvw bg-gray-300'>
-        <div className='container mx-auto bg-red-500 p-4'>
+        <div className='container mx-auto bg-red-500 p-4 text-white'>
           <h1>GameLib</h1>
         </div>
         <div className='container mx-auto p-4'>
@@ -29,9 +29,13 @@ function App() {
           </a>
         </div>
 
-        <div className='container mx-auto bg-red-500 p-4'>
-          <h3>Github GameLib</h3>
-          <a href='https://github.com/jasonleewilson/gamelib'>github Code</a>
+        <div className='container mx-auto bg-red-500 p-4 text-white'>
+          <h3>
+            Github GameLib{" "}
+            <a href='https://github.com/jasonleewilson/gamelib' target='_blank'>
+              Code
+            </a>
+          </h3>
         </div>
       </div>
     </>
