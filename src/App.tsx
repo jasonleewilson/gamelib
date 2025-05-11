@@ -16,6 +16,10 @@ function App() {
         </div>
         <div className='container mx-auto p-4'>
           <h2>work in progress...</h2>
+          <a href='https://gamelib-d40.pages.dev'>
+            Take a peek at my main branch
+          </a>
+          <br />
           <a href='https://dev.gamelib-d40.pages.dev'>
             Take a peek at my staging branch
           </a>
@@ -23,6 +27,11 @@ function App() {
           <a href='https://staging.gamelib-d40.pages.dev'>
             Take a peek at my dev branch
           </a>
+        </div>
+
+        <div className='container mx-auto bg-red-500 p-4'>
+          <h3>Github GameLib</h3>
+          <a href='https://github.com/jasonleewilson/gamelib'>github Code</a>
         </div>
       </div>
     </>
