@@ -19,11 +19,9 @@ function App() {
           <a href='https://dev.gamelib-d40.pages.dev'>
             Take a peek at my staging branch
           </a>
-          https://staging.gamelib-d40.pages.dev
           <a href='https://staging.gamelib-d40.pages.dev'>
             Take a peek at my dev branch
           </a>
-          https://staging.gamelib-d40.pages.dev
         </div>
       </div>
     </>
